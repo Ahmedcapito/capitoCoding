@@ -3,12 +3,12 @@
 
 import { useAuth } from '@/lib/useAuth';
 import { useRouter } from 'next/navigation';
-import About from '../../components/About/About'
-import CoursesSection from '../../components/CoursesSection/CoursesSection'
-import FAQ from '../../components/FAQ/FAQ'
-import Hero from '../../components/Hero/Hero'
-import StudentTestimonials from '../../components/StudentTestimonials/StudentTestimonials'
-import Footer from "../../components/Footer/Footer";
+import About from '../../Components/About/About'
+import CoursesSection from '@/Components/CoursesSection/CoursesSection '
+import FAQ from '../../Components/FAQ/FAQ'
+import Hero from '../../Components/Hero/Hero'
+import StudentTestimonials from '../../Components/StudentTestimonials/StudentTestimonials'
+import Footer from "../../Components/Footer/Footer";
 
 export default function DashboardPage() {
   const { user, loading } = useAuth();
