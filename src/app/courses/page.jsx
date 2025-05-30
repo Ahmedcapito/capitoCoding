@@ -1,4 +1,4 @@
-import CoursesSection from '@/Components/CoursesSection/CoursesSection '
+import CoursesSection from '@/components/CoursesSection/CoursesSection '
 import React from 'react'
 
 const courses = () => {
