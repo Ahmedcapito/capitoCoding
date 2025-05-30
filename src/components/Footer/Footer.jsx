@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <footer className="bg-gray-900 text-white py-4 px-6">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-130">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <p>ahmedcapito12345@gmail.com</p>
